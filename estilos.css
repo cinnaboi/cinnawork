@@ -1,0 +1,284 @@
+.page {
+    display: grid;
+    grid-template-columns: 24vw;
+
+}
+
+body {
+    background: #fffffa;
+    background-image: url(imagenes/BG.png);
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.sidebar {
+    position: fixed;
+    width: 20vw;
+    border-bottom-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+    background-color: rgba(44, 42, 48, 0.85);
+    max-width: 800px;
+    margin-left: 30px;
+
+}
+
+
+
+
+.angery {
+    width: 90%;
+    max-width: 300px;
+}
+
+.main {
+    grid-column-start: 2;
+    max-width: 100%;
+    margin: auto:
+}
+
+* {
+    font-family: "Montserrat";
+    color: #fefefe;
+    font-weight: 400;
+    text-align: center;
+    padding: inherit;
+}
+
+.menu_bar {
+    display: none;
+}
+
+header nav ul {
+    overflow: hidden;
+    list-style: none;
+}
+
+header nav ul li {
+    float: center;
+}
+
+header nav ul li a {
+    color: #c3c3c3;
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+
+}
+
+header nav ul li a:hover {
+    background: #fff;
+    list-style-type: none;
+    display: grid;
+    transition: 0.8s all;
+    border-left: 15px solid #fff;
+}
+
+a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+ul.drop-menu {
+    position: center;
+    bottom;
+    100%;
+    left: 0%;
+    width: 100%;
+    padding: 0;
+}
+
+ul.drop-menu li {
+    background: #666;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+ul.drop-menu li:hover {
+    background: #606060;
+}
+
+ul.drop-menu li:last-child {
+    border-radius: 0px 0px 5px 5px;
+}
+
+ul.drop-menu li {
+    display: none;
+}
+
+li:hover > ul.drop-menu li {
+    display: block;
+}
+
+
+
+.slides {
+    width: 90%;
+    margin: 3.5%;
+    background-color: rgba(44, 42, 48, 0.85);
+    border-bottom-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+
+}
+
+.slides div {
+
+    max-width: 100%;
+
+
+}
+
+.slides img {
+    border-bottom-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    padding: center;
+
+}
+
+.slidesjs-pagination {
+    background: #424242;
+    list-style: none;
+    overflow: hidden;
+    margin: auto;
+}
+
+.slidesjs-pagination li {
+    float: left;
+}
+
+.slidesjs-pagination li a {
+    display: block;
+    padding: 10px 20px;
+}
+
+.slidesjs-pagination li a:hover {
+    background: #000;
+    transition: 0.8s all;
+
+}
+
+.slides .active {
+    background: #000;
+}
+
+.slidesjs-navigation {
+
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 13.5;
+    20px;
+    float: right;
+
+}
+
+
+
+.about {
+    width: 90%;
+    margin: 3.5%;
+    background-color: rgba(44, 42, 48, 0.85);
+    border-bottom-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+}
+
+.about {
+    display: grid;
+
+    grid-template-columns: auto;
+    grid-template-columns: repeat 1fr/ 3fr;
+    grid-gap: em;
+    grid-auto-rows: minmax (100px, auto);
+}
+
+.about div {
+
+    align-items: stretch;
+    background: none;
+    padding: 1em;
+
+}
+
+.about > div:nth-child(odd) {}
+
+.box1 {
+    grid-row: 2/2;
+    font-size: 11px;
+    margin: auto;
+}
+
+.box1 p {
+    text-align: justify;
+    font-size: 15pt ;
+    
+
+}
+
+.box1 p1 {
+
+    font-size: 10px;
+    font-family: "Montserrat light"
+}
+
+.box4 {
+    grid-column: 2/2;
+    grid-row: 2/2;
+    grid-column-start: ;
+    max-width: 100%;
+    margin: auto;
+
+
+
+}
+
+.box4 img {
+
+    max-width: 100%;
+
+    padding: center;
+
+}
+
+
+.contacto{
+    width: 90%;
+    margin: 3.5%;
+    background-color: rgba(44, 42, 48, 0.85);
+    border-bottom-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+}
+.main1 {
+    
+    grid-column-start: 2;
+    max-width: 100%;
+    margin: auto:
+}  
+
+.main1 li a{
+    text-decoration: none;
+}
+
+.main1 p{
+    padding-top: 15px;
+}
+
+.box6 p{
+    font-size: 10pt ;
+    font-style: italic;
+    
+}
+

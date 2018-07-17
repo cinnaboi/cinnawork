@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="fonts.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+
+<body>
+    <div class="sidebar">
+        <header>
+
+            <nav>
+                <ul>
+                    <a ref="cinnawork.html">  <img src="./imagenes/angery.png" alt="angery" class="angery" /></a>
+                    <li><a href="https://cinnaboi.github.io/cinnawork/" onclick="do_click();">Inicio</a></li>
+                    <li><a ref="#">Galería</a>
+                        <ul class="drop-menu menu-#{i}">
+                            <li><a href="#sectionOne" class="scrollTo">Personajes</a></li>
+                            <li><a href="#sectionTwo" class="scrollTo">Texturas</a></li>
+                            <li><a href="#sectionThree" class="scrollTo">Bocetos</a></li>
+                    </li>
+                    </ul>
+                    <li><a href="#sectionFour" class="scrollTo">Acerca de</a></li>
+                    <li><a href="#sectionFive" class="scrollTo">Contacto</a>
+                        <ul class="drop-menu menu-#{i}">
+                            <li><a href="#sectionSix" class="scrollTo">Propiedad legal</a></li>
+                        </ul>
+                    </li>
+            </nav>
+    </div>
+    </header>
+
+    <main>
+        <section id="sectionOne">
+            <div class="page">
+                <div class="main">
+
+                    <body>
+                        <div class="main">
+                            <div class="slides">
+                                <img src="imagenes/personajes/Valder_mini.jpg" alt="">
+                                <img src="imagenes/personajes/Cinna-cafe_mini.jpg" alt="">
+                                <img src="imagenes/personajes/leon_mini.jpg" alt="">
+                                <img src="imagenes/personajes/cedric1_mini.jpg" alt="">
+                                <img src="imagenes/personajes/irkus_mini.jpg" alt="">
+                                <img src="imagenes/personajes/cinna-retrato_mini.jpg" alt="">
+                                <img src="imagenes/personajes/vaho-retrato_mini.jpg" alt="">
+                                <img src="imagenes/personajes/personajes_mini.jpg" alt="">
+                                <img src="imagenes/personajes/vaho-snow_mini.jpg" alt="">
+                                <img src="imagenes/personajes/vaho-noche_mini.jpg" alt="">
+                                <img src="imagenes/personajes/sure_mini.jpg" alt="">
+                                <img src="imagenes/personajes/nat.jpg" alt="">
+                            </div>
+                        </div>
+                        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+                        <script src="js/jquery.slides.js"></script>
+                        <script>
+                            $(function() {
+                                $(".slides").slidesjs({
+                                    play: {
+                                        active: true,
+                                        // [boolean] Generate the play and stop buttons.
+                                        // You cannot use your own buttons. Sorry.
+                                        effect: "slide",
+                                        // [string] Can be either "slide" or "fade".
+                                        interval: 4000,
+                                        // [number] Time spent on each slide in milliseconds.
+                                        auto: true,
+                                        // [boolean] Start playing the slideshow on load.
+                                        swap: true,
+                                        // [boolean] show/hide stop and play buttons
+                                        pauseOnHover: false,
+                                        // [boolean] pause a playing slideshow on hover
+                                        restartDelay: 2500
+                                        // [number] restart delay on inactive slideshow
+                                    }
+                                });
+                            });
+
+                        </script>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="sectionTwo">
+            <div class="page">
+
+                <div class="main">
+
+                    <body>
+                        <div class="main">
+                            <div class="slides">
+                                <img src="imagenes/texturas/cristal_mini.jpg" alt="">
+                                <img src="imagenes/texturas/metal_mini.jpg" alt="">
+                                <img src="imagenes/texturas/hielo_mini.jpg" alt="">
+                                <img src="imagenes/texturas/sashimi_mini.jpg" alt="">
+                                <img src="imagenes/texturas/slime_mini.jpg" alt="">
+                                <img src="imagenes/texturas/lava_mini.jpg" alt="">
+                                <img src="imagenes/texturas/metal-esfera_mini.jpg" alt="">
+                                <img src="imagenes/texturas/pelo_mini.jpg" alt="">
+                                <img src="imagenes/texturas/roca_mini.jpg" alt="">
+
+                            </div>
+                        </div>
+                        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+                        <script src="js/jquery.slides.js"></script>
+                        <script>
+                            $(function() {
+                                $(".slides").slidesjs({
+                                    play: {
+                                        active: true,
+                                        // [boolean] Generate the play and stop buttons.
+                                        // You cannot use your own buttons. Sorry.
+                                        effect: "slide",
+                                        // [string] Can be either "slide" or "fade".
+                                        interval: 4000,
+                                        // [number] Time spent on each slide in milliseconds.
+                                        auto: true,
+                                        // [boolean] Start playing the slideshow on load.
+                                        swap: true,
+                                        // [boolean] show/hide stop and play buttons
+                                        pauseOnHover: false,
+                                        // [boolean] pause a playing slideshow on hover
+                                        restartDelay: 2500
+                                        // [number] restart delay on inactive slideshow
+                                    }
+                                });
+                            });
+
+                        </script>
+
+
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <section id="sectionThree">
+
+            <div class="page">
+
+                <div class="main">
+
+                    <body>
+                        <div class="main">
+                            <div class="slides">
+                                <img src="imagenes/estudios/caras_mini.jpg" alt="">
+                                <img src="imagenes/estudios/casas_mini.jpg" alt="">
+                                <img src="imagenes/estudios/concept%20robots_mini.jpg" alt="">
+                                <img src="imagenes/estudios/dron_mini.jpg" alt="">
+                                <img src="imagenes/estudios/rostro_mini.jpg" alt="">
+                                <img src="imagenes/estudios/studio1_mini.jpg" alt="">
+                                <img src="imagenes/estudios/ultron-studio_mini.jpg" alt="">
+                                <img src="imagenes/estudios/Untitled-1_mini.jpg" alt="">
+                                <img src="imagenes/estudios/City.png" alt="">
+                                 <img src="imagenes/estudios/storyboard.jpg" alt="">
+                                 <img src="imagenes/estudios/storyboard1.jpg" alt="">
+
+                            </div>
+                        </div>
+                        <script src="//code.jquery.com/jquery-1.9.1.min.js"></script>
+                        <script src="js/jquery.slides.js"></script>
+                        <script>
+                            $(function() {
+                                $(".slides").slidesjs({
+                                    play: {
+                                        active: true,
+                                        // [boolean] Generate the play and stop buttons.
+                                        // You cannot use your own buttons. Sorry.
+                                        effect: "slide",
+                                        // [string] Can be either "slide" or "fade".
+                                        interval: 4000,
+                                        // [number] Time spent on each slide in milliseconds.
+                                        auto: true,
+                                        // [boolean] Start playing the slideshow on load.
+                                        swap: true,
+                                        // [boolean] show/hide stop and play buttons
+                                        pauseOnHover: false,
+                                        // [boolean] pause a playing slideshow on hover
+                                        restartDelay: 2500
+                                        // [number] restart delay on inactive slideshow
+                                    }
+                                });
+                            });
+
+                        </script>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+
+    <section id="sectionFour">
+
+        <div class="page">
+
+            <div class="main">
+                <header>
+
+                    <body>
+
+                        <div class="about">
+
+                            <div class="box1">
+
+                                <p1> Nombre artístico: Cinna | Cumpleaños: 30 de Abril | Nacionalidad: Mexicana </p1>
+
+
+                                <p> Estudiante de la carrera de Diseño gráfico de la UABC. Ilustrador digital especializado en el desarrollo de personajes y artes visuales enfocado a los videojuegos. 
+                                </p>
+
+                                <p>Actualmente Freelancer en internet residiendo en Baja California.</p>
+                                
+                                
+                                <p> </p>
+
+                                <p1>| Para contácto y dudas: cinna-dahusky@hotmail.com |</p1>
+
+
+                            </div>
+
+                            <div class="box4"><a><img src="imagenes/me.jpg"> </a></div>
+                        </div>
+                </header>
+    </section>
+
+
+    <section id="sectionFive">
+        <div class="page">
+            <div class="main1">
+
+                <link rel="stylesheet" href="iconos/iconos.css">
+                <div class="contacto">
+                    <p>Contacto</p>
+                    <header>
+                        <nav>
+                            <ul>
+                                <li><a href="https://www.facebook.com/FloffoCinna/"> <span class="icon-facebook "></span>facebook</a> </li>
+                                <li><a href="https://cinnahusky.deviantart.com/"> <span class="icon-deviantart"></span>deviantart</a> </li>
+                                <li><a href="https://www.instagram.com/floffocinna/?hl=es-la"> <span class="icon-instagram"></span>instagram</a> </li>
+                                <li><a href="http://ko-fi.com/cinnafluff"> <span class="icon-heart"></span>ko-fi</a> </li>
+                            </ul>
+                        </nav>
+                    </header>
+
+                </div>
+                </header>
+    </section>
+
+    <section id="sectionSix">
+
+        <div class="page">
+
+            <div class="main">
+                <header>
+
+                    <body>
+
+                        <div class="about">
+
+                            <div class="box6">
+
+                                <p1> | Propiedad legal | </p1>
+
+                                <p> El contenido de este sitio, así como texto, ilustraciones y diseño, son propiedad de Cinnawork, queda prohibida la reproducción, alteración o distribución del mismo.</p>
+
+                                <p> Cinnawork se reserva el derecho de actualizar o modificar la información contenida en la página web, así como su configuración o condiciones en cualquier momento sin requerimiento de aviso previo.
+                                </p>
+                                <p> El usuario, se compromete a no copiar, alterar o manipular en algún modo el contenido de esta página.
+                                </p>
+
+                            </div>
+
+
+                        </div>
+                </header>
+    </section>
+
+
+    </body>
+
+</html>
